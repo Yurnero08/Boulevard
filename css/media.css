@@ -1,0 +1,136 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .content__img {
+        max-width: 390px;
+    }
+
+    .content__img-1 {
+        max-width: 357px;
+    } 
+
+    .header__title {
+        font-size: 90px;
+    }
+
+    .inf__img {
+        max-width: 200px;
+    }
+
+    .content__wrapper, .inf__wrapper, .inf__wrapper_right {
+        font-size: 19px;
+    }
+    .inf__wrapper_right {
+        display: flex;
+        text-align-last: center;
+    }
+
+    .inf {
+        gap: 10px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .header__title {
+        font-size: 75px;
+        margin-bottom: 20px;
+        padding-top: 30px;
+    }
+
+    .header__content {
+        min-width: 50vh; 
+    }
+
+    .content__img {
+        max-width: 310px;
+    }
+
+    .content__img-1 {
+        max-width: 300px;
+    }
+
+    .content__wrapper {
+        font-size: 17px;
+    }
+
+    .inf__wrapper {
+        font-weight: 500;
+    }
+
+    .inf__wrapper {
+        font-size: 17px;
+    }
+
+    .inf__img {
+        max-width: 160px;
+    }
+
+    .catalog {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav__link, .footer__link {
+        font-size: 18px;
+    }
+
+    .inf__line {
+        height: 0;
+        width: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .nav__link, .footer__item {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .header__title {
+        font-size: 50px;
+        margin-bottom: 0;
+    }
+
+    .header__sub {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .inf {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .inf__line {
+        height: 0;
+        width: 0;
+    }
+
+    .catalog {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .content__img,.content__img-1 {
+        max-width: 210px;
+    }
+
+    .catalog__link {
+        padding: 7px 57px;
+    }
+}
